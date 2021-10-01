@@ -1,195 +1,219 @@
 * { 
-    padding: 0;
-    margin: 0;
+padding: 0;
+margin: 0;
 }
 
-html {scroll-behavior: smooth;}
-
+html {
+scroll-behavior: smooth;
+}
 
 #mainheader { 
-              text-align: center;
-              font-size: 60px;
-              color: wheat;
-              font-family: 'Merriweather', serif;
-              
-
+text-align: center;
+font-size: 45px;
+color: wheat;
+font-family: 'Merriweather', serif;
 }
 
 #background { 
-              width: 100vw;
-              height: 100vh;
-              position: fixed;
-              filter: brightness(40%); 
-              z-index: -1000;
+width: 100vw;
+height: 100vh;
+position: fixed;
+filter: brightness(40%); 
+z-index: -1000;
 }
 
 ul { 
-      font-size: 17px;
-      color: wheat;
-      display: flex;
-      justify-content: space-evenly;
-      list-style: none;
-      font-family: 'Merriweather', serif;
-      
-  
+font-size: 17px;
+color: wheat;
+display: flex;
+justify-content: space-evenly;
+list-style: none;
+font-family: 'Merriweather', serif;
 }
 
-ul li a { color: wheat;
-          text-decoration: none;
+ul li a { 
+color: wheat;
+text-decoration: none;
+font-size: 15px;
 }
 
-li{transition:0.5s}
+li {
+transition:0.5s
+}
 
-li:hover{font-size: 45px ;}
+li:hover{
+font-size: 45px ;
+}
 
 #openinig { 
-            display: flex;
-            justify-content: center;
-            color: wheat;
-            font-size: 20px;
-            margin-top: 50px;
-            
+display: flex;
+justify-content: center;
+color: wheat;
+font-size: 20px;
+margin-top: 50px;
 }
 
-#Y2cheader {font-family: 'Merriweather', serif; }
+#Y2cheader {
+font-family: 'Merriweather', serif; 
+font-size: 30px;
+}
 
 #Y2sec {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: space-evenly;
-            margin-left: 2%;
-                         
+width: 100%;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: space-evenly;
+margin-left: 2%;       
 }
 
 .Y2article {
-             width: 93%;
-             border: wheat solid 1px;
-             border-radius: 10px;
-             padding: 1%;   
-             transition : border 0.3s ;         
+width: 93%;
+border: wheat solid 1px;
+border-radius: 10px;
+padding: 1%;   
+transition : border 0.3s ;         
 }
 
-.Y2article:hover{border:solid wheat 5px;}
+.Y2article:hover{
+border:solid wheat 5px;
+}
 
 article h1 { 
-             color: wheat;
-             font-size: 22px;
-             text-align: center;
-             font-family: 'Merriweather', serif;
-             
+color: wheat;
+font-size: 22px;
+text-align: center;
+font-family: 'Merriweather', serif;
 }
 
 article  p { 
-             font-size: 17px;
-             color: wheat;  
-             width: 100%;                 
+font-size: 17px;
+color: wheat;  
+width: 93%;                
 } 
 
-#Optionsheader { font-size: 46px;
-                color: wheat;
-                text-align: center;
-                margin-top: 50px;
-                font-family: 'Merriweather', serif;
+#Optionsheader { 
+font-size: 46px;
+color: wheat;
+text-align: center;
+margin-top: 50px;
+font-family: 'Merriweather', serif;
 }
 
 #Options { 
-           width: 100%;
-           display: flex;
-           flex-direction: column;
-           justify-content: space-evenly;
-            margin-top: 3%;
-            margin-left: 1%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+margin-top: 3%;
+margin-left: 1%;
 }
 
 #Optionsarticle { 
-                  width: 100%;
-                  margin-right: 23%;    
-        
+width: 100%;
+margin-right: 23%;    
 }
 
 #Optionsarticle .Optionsparas a {
-                                  text-decoration: none;
-                                  color:whitesmoke;
+text-decoration: none;
+color:whitesmoke;
 }
 
 #Optionsimg { width: 50%;
-               height: 50%;
-               margin-right: 20%;
-               animation-name: rollingcoin;
-               animation-duration: 5s;
-               animation-iteration-count: infinite;
-               margin-left: 18%;
-               margin-top: 4%;
-               
+height: 50%;
+margin-right: 20%;
+animation-name: rollingcoin;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+margin-left: 18%;
+margin-top: 4%;
+
 }
 
 @keyframes rollingcoin {
-        0% {transform:rotateY (0deg);}
-        100%{transform:rotateY(360deg);}
+0% {transform:rotateY (0deg);}
+100%{transform:rotateY(360deg);}
 }
 
-.article2paras{ font-size: 17px;}
+.article2paras{ 
+font-size: 17px;
+}
 
 #Mainoptions { 
-               width: 100%;
-               display: flex;
-               flex-direction: column;
-               margin-left: 3%;
-               margin-top: 4%;
-               justify-content: space-evenly;
-
+width: 100%;
+display: flex;
+flex-direction: column;
+margin-left: 2%;
+margin-top: 2%;
+justify-content: space-evenly;
 }
 
 .Mainoptionsarticles { 
-                       width: 92%;
-                       border: wheat solid 1px;
-                       border-radius: 10px;
-                       padding: 1%;   
-                       transition: border 0.3s;
-                                
+width: 92%;
+border: wheat solid 1px;
+border-radius: 10px;
+padding: 1%;   
+transition: border 0.3s;       
 }
 
-.Mainoptionsarticles:hover{border: solid wheat 5px;}
+.Optionsparas {
+font-size: 15px;
+width: 93%;
+}
+
+.Mainoptionsarticles:hover {
+border: solid wheat 5px;
+}
 
 
 .Mainoptionsarticles p { 
-                         font-size: 22px;
-                         color: wheat;  
-                         width: 100%;                
+font-size: 18px;
+color: wheat;  
+width: 93%;           
+text-align: center;     
 }
 
 #Registeryheader {
-                   text-align: center;
-                   font-size: 32px;
-                   margin-top: 2%;
-                   color: wheat;
-                   font-family: 'Merriweather', serif;
-              
+text-align: center;
+font-size: 22px;
+margin-top: 2%;
+color: wheat;
+font-family: 'Merriweather', serif;
 }
 
 #Registery {
-             display: flex;
-             justify-content: center;
-             color: wheat;
-             font-size: 20px;
-             align-items: center;
-             width: 100%;
-             margin-top: 1%;
-        
+display: flex;
+justify-content: center;
+color: wheat;
+font-size: 20px;
+align-items: center;
+width: 100%;
+margin-top: 1%;
 }
 
-#Registarea{margin-bottom: 6.5%;}
+#Registarea{
+margin-bottom: 6.5%;
+}
 
 #Registery #Registarea {
-                         width: 75%;
-                         border: 1px solid wheat;
-                         display: flex;
-                         flex-direction: column;
-                         border-radius:2% ;
-                         align-items: center;
-                         transition: 0.3s border;
+width: 75%;
+border: 1px solid wheat;
+display: flex;
+flex-direction: column;
+border-radius:2% ;
+align-items: center;
+transition: 0.3s border;
+margin-top: 2%;
 }
 
-#Registery #Registarea:hover {border: solid 5px wheat;}
+#form {
+margin-bottom: 2%;
+}
+
+label {
+font-size: 17px;
+}
+
+#Registery #Registarea:hover {
+border: solid 5px wheat;
+}

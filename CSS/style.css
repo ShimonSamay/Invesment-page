@@ -58,7 +58,7 @@ li:hover {
 }
 
 #Y2header {
-                  font-family: 'Merriweather', serif;
+            font-family: 'Merriweather', serif;
 
  }
 
@@ -97,11 +97,11 @@ article  p {
 } 
 
 #Optionsheader {
-                font-size: 70px;
-                color: wheat;
-                text-align: center;
-                margin-top: 50px;
-                font-family: 'Merriweather', serif;
+                 font-size: 70px;
+                 color: wheat;
+                 text-align: center;
+                 margin-top: 50px;
+                 font-family: 'Merriweather', serif;
 }
 
 #Options { 
@@ -140,7 +140,7 @@ article  p {
 
 .article2paras { 
                  font-size: 22px;
-        }
+}
 
 #Mainoptions { 
                width: 100%;
